@@ -42,8 +42,9 @@ Contribuições são bem-vindas! Você pode ajudar:
 
 ---
 
-## 📷 Prévia (opcional)
-👉 Adicione aqui um *screenshot* ou *gif* do jogo rodando para deixar o README mais atrativo.
+## 📷 Prévia =
+👉 <img width="889" height="995" alt="image" src="https://github.com/user-attachments/assets/cfb6a569-448d-4aaf-b12b-58739c72a036" />
+
 
 ---
 
