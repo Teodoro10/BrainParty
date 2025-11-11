@@ -1,6 +1,6 @@
 package com.brainparty;
 
-import java.util.*;
+import java.util.*;  // importa ultilitarios: list, arrayList e Collections.shuffle para embaralhar 
 
 /**
  * Classe que gerencia a lógica do jogo.
@@ -8,8 +8,8 @@ import java.util.*;
  */
 public class Game {
     private List<Card> cards;
-    private int moves;
-    private long startTime;
+    private int moves; // quantas moviementações 
+    private long startTime; // tempo que começou
     private int matchedPairs;
 
     public Game() {
@@ -17,7 +17,7 @@ public class Game {
         this.moves = 0;
         this.matchedPairs = 0;
         this.startTime = System.currentTimeMillis();
-        initializeCards();
+        initializeCards(); // essa classe inicia o jogo e embaralha 
     }
 
     private void initializeCards() {
@@ -111,5 +111,5 @@ public class Game {
         matchedPairs = 0;
         startTime = System.currentTimeMillis();
         initializeCards();
-    }
+    } // reinicia o game
 }
