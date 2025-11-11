@@ -7,7 +7,7 @@ package com.brainparty;
 public class Card {
     private String word;           // A palavra exibida (inglês ou português)
     private String pairWord;       // A palavra correspondente (para verificar match)
-    private boolean flipped;
+    private boolean flipped;      // Indica se a carta está virada
     private boolean matched;
     private boolean isEnglish;     // true = inglês, false = português
 
@@ -20,7 +20,7 @@ public class Card {
     }
 
     public String getWord() {
-        return word;
+        return word;  // retorna a palavra da carta 
     }
 
     public String getPairWord() {
@@ -28,11 +28,11 @@ public class Card {
     }
 
     public boolean isEnglish() {
-        return isEnglish;
+        return isEnglish; //Diz se a carta está em inglês
     }
 
     public boolean isFlipped() {
-        return flipped;
+        return flipped;    //Vira a carta (se estiver virada, desvira; se estiver oculta, revela)
     }
 
     public void flip() {
@@ -44,7 +44,7 @@ public class Card {
     }
 
     public void setMatched(boolean matched) {
-        this.matched = matched;
+        this.matched = matched;   //Marca a carta como combinada ou não
     }
 
     public void reset() {
@@ -56,6 +56,6 @@ public class Card {
         if (matched) {
             return word;
         }
-        return flipped ? word : "?";
+        return flipped ? word : "?";   // para mostrar o estado da carta, fliped = combinada ou virada ou escondida
     }
 }
