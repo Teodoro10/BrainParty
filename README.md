@@ -42,14 +42,4 @@ Contribuições são bem-vindas! Você pode ajudar:
 
 ---
 
-## 📷 Prévia =
-👉 <img width="889" height="995" alt="image" src="https://github.com/user-attachments/assets/cfb6a569-448d-4aaf-b12b-58739c72a036" />
-
-
----
-
-## 📜 Licença
-Este projeto está sob a licença **MIT**.  
-Sinta-se à vontade para usar, modificar e compartilhar!
-
----
+<a href="https://www.canva.com/design/DAG4SymX0zY/SK8Jyo8riOWD5knUX-Fndw/view" target="_blank">Apresentação do Projeto</a>
